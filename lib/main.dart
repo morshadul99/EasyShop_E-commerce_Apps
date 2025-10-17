@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:e_commerce/pages/details_page.dart';
 import 'package:e_commerce/pages/home_page.dart';
 import 'package:e_commerce/pages/login_page.dart';
+import 'package:e_commerce/pages/profile_page.dart';
 import 'package:e_commerce/pages/sign_up_page.dart';
 import 'package:e_commerce/pages/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      home: splash_screen(),
+      home: login_page(),
     );
   }
 }

@@ -180,7 +180,7 @@ class _home_pageState extends State<home_page> {
 
                           color: Colors.white,
                         ),
-                        child: Icon(Icons.filter_list,color: Colors.blue,size: 30,),
+                        child: Icon(Icons.filter_list,color: Colors.black54,size: 30,),
                       )
 
                       ],
